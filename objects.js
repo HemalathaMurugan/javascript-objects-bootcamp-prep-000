@@ -1,4 +1,4 @@
-var playlist={:'Ilayaraja', romance:'Yuvan'};
+var playlist={'Slowdive':'Ilayaraja', romance:'Yuvan'};
 
 function updatePlaylist(playlist, artistName, songTitle){
     return Object.assign({}, playlist, {songTitle:[artistName]});
