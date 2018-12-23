@@ -11,6 +11,6 @@ function updatePlaylist(playlist, artistName, songTitle) {
 }*/
 
 function removeFromPlaylist(playlist, artistName) {
-  playlist=playlist.delete['Mustafa'];
+  playlist=playlist.delete['Sundari'];
   return playlist;
 }
