@@ -1,7 +1,7 @@
 var playlist={Sundari:'Ilayaraja', orukal:'Yuvan'};
 
 function updatePlaylist(playlist, artistName, songTitle) {
-  playlist.[songTitle]=`${artistName}`;
+  playlist.songTitle=`${artistName}`;
   return playlist;
   
 }
