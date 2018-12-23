@@ -1,7 +1,7 @@
-var playList={melody:'Ilayaraja', romance:'Yuvan'};
+var playlist={melody:'Ilayaraja', romance:'Yuvan'};
 
 function updatePlaylist({newPlaylist}, name, title) {
-    return Object.assign({}, playList, {title:[name]})
+    return Object.assign({}, playlist, {title:[name]})
    //title=party, name=Vijay Antony
    //return newPlaylist;
 }
