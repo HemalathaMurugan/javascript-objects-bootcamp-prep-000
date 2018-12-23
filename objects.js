@@ -1,7 +1,7 @@
 var playlist={Sundari:'Ilayaraja', orukal:'Yuvan'};
 
 function updatePlaylist(playlist, artistName, songTitle) {
-  playlist['Mustafa'] = "AR Rehman" ;
+  playlist[songTitle] = "AR Rehman" ;
   return playlist;
    //return Object.assign({}, playlist, {[Mustafa]:"AR Rehman"});
 }
@@ -11,6 +11,6 @@ function updatePlaylist(playlist, artistName, songTitle) {
 }*/
 
 function removeFromPlaylist(playlist, artistName) {
-  playlist=playlist.delete['Sundari'];
+  playlist=playlist.delete[artistName];
   return playlist;
 }
